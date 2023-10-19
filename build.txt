@@ -1,0 +1,4 @@
+displayName = Deimos, the Starborn Princess
+author = Everquartz, Jester, Gat, Yez, and Blitztrager
+version = 0.3.0.0
+weakReferences = CalamityMod, HypnosMod, CalRemix

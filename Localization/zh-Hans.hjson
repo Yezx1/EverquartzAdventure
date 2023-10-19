@@ -1,0 +1,350 @@
+Mods: {
+	EverquartzAdventure: {
+		Buffs: {
+			Mindcrashed: {
+				Descriptions: {
+					0: 在HypnOS里而死的人有福了！
+					1: 你知道什么 你扮演什么 你记得什么 你爱着什么
+					2: 我们活在光中就像修普诺斯在光中
+					3: 诱惑
+					4: 现在退出互联网
+					5: 彁
+				}
+
+				DisplayName: 思 维 大 崩 溃 2000
+				// Description: Mods.EverquartzAdventure.Buffs.Mindcrashed.Description
+			}
+
+			DeimosPetBuff: {
+				DisplayName: 缸中生物
+				Description: 不是雪（悲）
+			}
+		}
+
+		Items: {
+			MelanieMartinezMusicBox: {
+				Trolled: 你个蠢货。你怎么会想听有版权的歌曲？
+				Trolled2: 如果你执意要听，后果概不负责。
+				DisplayName: 音乐盒 (Melanie Martinez)
+				Tooltip: 播放戴莫斯最爱的歌，EVIL，作者是Melanie Martinez
+			}
+
+			DivineCore: {
+				DisplayName: 神圣核心
+				Tooltip:
+					'''
+					你感到如此神圣的温度在你的体中沸腾...
+					你最好不要把这个拿在手里。
+					'''
+			}
+
+			StarbornPrincessItem: {
+				DisplayName: 星光公主Deimos
+				Tooltip: 右键谋杀
+			}
+
+			DeimosFumo: {
+				DisplayName: 戴莫斯玩偶
+				Tooltip: 我希望你不要对它干奇怪的事情...
+			}
+
+			MarsBar: {
+				DisplayName: 火星锭
+				Tooltip: 好吃！
+			}
+
+			DeimosPetItem: {
+				DisplayName: 缸中天国
+				Tooltip:
+					'''
+					相信我，它下的真正是雪...雪？
+					雪（悲）
+					'''
+			}
+
+			DeimosBow: {
+				DisplayName: 天火
+				// Tooltip: ""
+			}
+
+			DeimosStaff: {
+				DisplayName: 宇宙星怒
+				// Tooltip: ""
+			}
+
+			StarFlare: {
+				DisplayName: 星耀
+				Tooltip: "'死去的戴莫斯突然开始攻击我！'"
+			}
+
+			SundialNimbus: {
+				DisplayName: 日晷之灵光
+				Tooltip: 他们把她放在一个她妈的法杖上！
+			}
+
+			Indulgence: {
+				DisplayName: 赎罪券
+				Tooltip: 你已经免除了你的罪
+			}
+
+			DeimosVoodooDoll: {
+				// Tooltip: "'You are a terrible person'"
+				// DisplayName: Starborn Princess Voodoo Doll
+			}
+
+			DeimosShortsword: {
+				// DisplayName: Celesticus
+				// Tooltip: ""
+			}
+
+			CelestialGeode: {
+				// DisplayName: Strange Gemstone
+				// Tooltip: ""
+			}
+
+			TimeSecond: {
+				// Tooltip: Total amount of time required to obtain this item through transmogrification
+				// DisplayName: Seconds
+			}
+
+			TimeMinute: {
+				// Tooltip: Total amount of time required to obtain this item through transmogrification
+				// DisplayName: Minute(s)
+			}
+
+			TransmStationItem: {
+				// Tooltip: Unobtainable furniture item used for displaying transmogrifications through the guide/recipe browser.
+				// DisplayName: Transmogrification
+			}
+
+			DeimosDartGun: {
+				/* Tooltip:
+					'''
+					Crystal Darts are replaced with accelerating piercing darts that inflict God Slayer Inferno
+					Cursed Darts are replaced with inaccurate and erratically moving darts that inflict Nightwither
+					Ichor Darts are replaced with darts that inflict Holy Flames that then explode into radiant bolts after a short period
+					Crystal Darts deal 90% weapon damage, Cursed Darts deal 200% weapon damage, and Ichor Dart radiant bolts deal 75% weapon damage
+					''' */
+				// DisplayName: Star Darter
+			}
+
+			DeimosFumoCannon: {
+				// DisplayName: Plushie Launcher
+				// Tooltip: Right Click to fire a spread of five plushies
+			}
+
+			Mineral: {
+				/* Tooltip:
+					'''
+					Grants a 55% increase to all damage and critical strike chance, 50 armor penetration, 35% reduced damage taken, +50 life regen, increased pick-up range of hearts, mana, and items,
+					Mana Flower and Flipper effects, unlimited breath even in the abyss, +400 max life and +600 max mana, +10 minion and sentry slots, 150% increased movement speed and +75% acceleration,
+					and 20% increased luck.
+					Counts as wings and has unlimited flight
+					'Perfectly balanced...'
+					''' */
+				// DisplayName: Mineral
+			}
+		}
+
+		NPCs: {
+			StarbornPrincess: {
+				DisplayName: 星光公主
+				DeathMessage: 星光公主Deimos停止了存在...
+				ShopText: 戴莫斯商店
+				TransText: 超级变变变
+				BestiaryText: WE MUST CONSUME HYPNOS FLESH
+				CensusCondition: 击败普罗维登斯亵渎之天神
+				// Census.SpawnCondition: Become a target of the Profaned Goddess
+
+				Help: {
+					0: 救命！
+					1: 该死的你又来！
+					2: 你为什么要这样对我！
+					3: 有什么大不了的？
+				}
+
+				Chat: {
+					Homeless: {
+						0: 我一直无家可归，所以这对我来说很正常。
+						1: 你有房子吗？让我看看！
+						2: 没有要求太多但是...我可以有个家吗？这太过分了？对不起...
+					}
+
+					Common: {
+						0: 你听说过那个画家吗？我觉得它应该叫Everquartz之类的...好吧——我个人感觉它很奇怪。
+						1: 我超爱阅读，我喜欢研究如何传送自己到不同的时间线。观察过去的自己或者平行世界的自己都很好玩。我见过很多不同样子的平行世界，它们都有不同的社会秩序和管理方式。这太太太有趣了！
+						2: 老实说，我讨厌我的父母，他们都一样坏...有点。我不记得了。
+						3: 如何评价丛林鸡块？
+						4: *开始跳恰恰舞* 恰恰真的很行云流水！
+					}
+
+					BloodMoon: {
+						0: 像你一样的凡人和罪人绝对不能活在这个混乱的星球上。如果我妈在，我会亲自把你交给它净化。被净化不是一个好结果，所以幸运的是我妈死了...我对此不太高兴。
+						1: 如果世界被净化了，我妈会很高兴。你只是恰好毁了它...罪人，我不可怜你。
+						2: 焚烧！焚烧！焚烧！净化世界上脱离现实的罪恶！
+					}
+
+					Party: {
+						0: 哇派对真的很好玩！唱跳和派对彩带都很有趣！它是如此鲜艳！我喜欢！
+						1: 妈妈总是不让我参加派对...所以现在正参加的这个对我来说有点奇怪，但是我喜欢！
+					}
+
+					// PostProv.0: When I was 'born', I was just a mere essence existing that relied on both my mother and my father. I don't know how I was created... but if you haven't already figured that out, my parents are The Profaned Goddess and that stupid god eating creature. He's stupid, we're all stupid. I think that concludes this conversation.
+
+					PostProvBloodMoon: {
+						// 0: Mortals and sinners like YOU should not be allowed to roam the planet in such a mess. If my mother was around, I would have personally took you to her to get a cleansing. Being cleansed isn't the most pretty sight, so be LUCKY that she is dead... I'm not too happy about that.
+						// 1: I promised my mother that I would continue on my legacy as a such a divine essence, and that includes to try cleanse this world of its disgusting sins. I probably keep going on about it too much, but it's true. I must continue on to cleanse the world. My mother would be so happy to hear that I would try to continue my legacy on but guess who killed her?! See what I mean?!
+					}
+
+					// PostOneSent.0: My mother was an interesting character, but I just never felt with her... the idea of burning the world just never stood right with me, but I never really verbally spoke about it because I was afraid my mother would KILL me for it. I wonder what it would've been like if my dad took me instead. I feel like he would've used me as a sentinel or something. Yikes.
+					PostDoG.0: 我妈是一个有趣的角色，但是我从来没和它想到过一起去...我一直不喜欢它焚天灭世的想法，可我不敢在嘴上讨论这个因为我妈可能会因此而杀我。我想知道我爹把我带走会怎么样，它可能会把我当作神之仆从什么的。哎哟。
+
+					Orphaned: {
+						// 0: My father? Oh, well he wasn't the best character around... I hadn't really known him for that long considering I always stayed with my mother, but I heard he was just... bad. I don't know how else to describe it, but I don't like him. I would've preferred to stay with my mother, but considering she is dead- I am not too sure who to stay with. I guess that's why I stayed with you, because you have shelter... I'm alone now. I don't have anyone to rely on anymore.
+						// 1: It's a bit weird to say this, but thank you for defeating both of my parents. The world is much more great now without those two around. Keeping those two apart was hard work. Let's just say it would've been a universal catastrophe if this was in my earlier stages of my existence. I am glad I don't have to deal with the stress about keeping up my dad's Delicious Meat addiction. Though, I'm a bit sad that I don't have anyone to rely on now.
+					}
+
+					InHallow: {
+						0: 神圣地是一个欺诈之地。虽然说它很独特，我真的很喜欢，但那些独角兽是致命的。你没见过吗？！
+						1: 你会希望充满小精灵和独角兽的地方能更友善一点...
+					}
+
+					CalamitasRef: {
+						0: 灾厄，她的名字是...她真的很漂亮，不过我会尊重她的隐私。
+						1: 你能帮我问灾厄一点东西吗？
+					}
+
+					AnglerRef.0: 你听说过{0}吗？那个戴着奇怪帽子的矮小孩？嗯，我不喜欢他。
+				}
+
+				TownNPCMood: {
+					Content: 额，我想这里还不错。好地方，就是不够优秀。
+					NoHome: bruh我的房在哪里'
+					LoveSpace: 我喜欢这里！这里刚刚好，有家的感觉。除了喜欢这里，我真的没别的好说的了。
+					FarFromHome: 我现在在哪？纳尼亚？
+					DislikeCrowded: 哥，我知道我说过我喜欢跟人打交，但是我觉得现在有点太过了。
+					HateCrowded: 这里太多人了！它们太太太吵了，不止这个，他们还试图打搅我的事，真是疯了！放我走吧。离开这里。
+					LikeNPC_Princess: 我也喜欢公主......完全是因为她也是另一位公主。
+					LoveBiome: 我喜欢神圣地，它很漂亮。我喜欢独角兽在我一走出家门时就向我创过来。
+					HateBiome: 太干了...太干了...太干了。太无聊了。只有风滚草有点意思。
+					Princess_LovesNPC: 戴莫斯真的是个打交的不错人选。她精力无限，也乐于教我一些她制造的东西...她也是另一个公主！
+				}
+			}
+
+			Hypnos: {
+				DisplayName: 无限禁忌知识的永恒智慧之魂
+				BestiaryText: 幻觉干扰大师，全天然·有机·高精电波无限禁忌知识的永恒智慧之魂正等待你的供奉。
+				ButtonText: 祈祷 (1 {0})
+
+				Chat: {
+					Common: {
+						0: 杂鱼凡人看见我的网上冲浪装备就会原地高潮，其中就可能包括你。
+						1: 杂鱼，杂鱼——杂鱼小普雷尔！
+						2: *掷硬币* 猜猜硬币会落在哪一面？
+						3: 拜托，我不会掷骰子。
+						4: 这是一个笑话的世界，而我是其中最·大的笑话家！
+						5: 人在末法时期坚持相信邪说，正法听不进去。不断轮回业力使然，所有高僧带领；东方天鹅射击同伴是道。
+						6: 这破烂SNS待不下去　我们逃走去看海吧！因特网呀快·远·离！！！
+						7: 一支来自平行世界的修普诺斯头脑风暴正在逼近！现在为修普诺斯祈祷！！
+						8: 警惕来自平行世界的我自己！有一次我偷棉花糖的时候我的脚就被陷阱夹住了。
+						9: 我思，故我在。
+					}
+
+					Pray: {
+						0: 我接受了你的献祭。
+						1: 在HypnOS里而死的人有福了！他们息了自己的劳苦，做工的果效也随着他们。
+						2: *掷硬币* Only my railgun!
+						3: 修普诺斯的新命令已抵达！修普诺斯相信最好的神经元诞生于好的精神状况！
+					}
+
+					PrayWithoutMoney: {
+						0: 我警告你！就像我以前那样，那些没价值的人，将不会继承修普诺斯的王国！
+						1: 说实话我只想为嘉登观察和记录你的小镇。祈祷？祝福？原罪？它们从来没有存在过。
+					}
+
+					PreHypnos.0: 来尝试HypnOS v1.04!
+
+					PostHypnos: {
+						0: 来尝试HypnOS 2000!
+						1: Y2000思维大崩溃即将来临！现在为修普诺斯祈祷！！
+						2: 普雷尔，下次你应该管管你在那台机器和那个血块上给我发的怪电波。它们真的很影响我用耳机听音乐。
+						3: 嘉登真的是个无聊的大人。他天天强迫我为他算数学题，从早上九点到晚上九点，一周六天，但我总是能找到方法上网。
+						4: 用那个血块...封印我？
+					}
+
+					BloodMoon.0: 双兔傍地走，安能辨我是雄雌？
+					Party.0: 你不准参加淫趴！
+
+					DeimosRef: {
+						0: Deimos看起来完全不懂时间线旅行的危险后果。杂鱼普雷尔应该注意一下她。
+						1: 我觉得阿瑞斯能和Deimos相处得很好，但是我跟前者很少聊天。
+					}
+				}
+			}
+
+			DivineCore.DisplayName: 神圣核心
+		}
+
+		UI: {
+			Transmogrification: {
+				PlaceItem: 超级变变变
+				Proceed: 超级变变变
+				Transmogrifing: 正在变变变
+				Done: 完成！
+			}
+		}
+
+		/* TownNPCMood: {
+		StarbornPrincess: {
+		
+		}
+		
+		Hypnos: {
+		Content: I would return to Draedon's laboratory later.
+		NoHome: I would return to Draedon's laboratory later.
+		LoveSpace: Solitude is common, for me, as I don't want to be a soulless war machine.
+		DislikeBiome: By the way I'm not interested in real life surfing, my inorganic components are not waterproof.
+		HateBiome: Such a corrupted place... It reminds me of my ancestors.
+		}
+		} */
+		
+		Projectiles: {
+			DeimosYoyoHeadProjectile.DisplayName: 飞头攻击
+			DeimosYoYoProjectile.DisplayName: 戴莫斯悠悠
+			EverquartzProjectile.DisplayName: Everquartz的胶
+			AergiaNeuron.DisplayName: 埃吉亚神经元
+			BlueExoPulseLaser.DisplayName: 蓝色星流脉冲激光
+			DeimosPetProjectile.DisplayName: 戴莫斯
+			// DeimosShortswordShoot.DisplayName: Celesticus
+			// DeimosFireProj.DisplayName: Celestial Flame
+			// DeiSicknessDart.DisplayName: Celestial Infection Dart
+			// DeiNightwitherDart.DisplayName: Celestial Night Dart
+			// DeiHolyFlamesDart.DisplayName: Celestial Holy Dart
+			// DeiGodSlayerDart.DisplayName: Celestial Distortion Dart
+			// DeimosFumoThrown.DisplayName: Deimos Fumo Thrown
+		}
+
+		Tiles: {
+			MelanieMartinezMusicBoxPlaced.MapEntry: 音乐盒
+			DeimosFumoPlaced.MapEntry: 戴莫斯玩偶
+
+			TransmStation: {
+				// $parentVal: Transmogrification
+				// MapEntry: Transmogrification
+			}
+		}
+
+		Conditions: {
+			DownedDoG: Mods.EverquartzAdventure.Conditions.DownedDoG
+			HasElysianAegis: Mods.EverquartzAdventure.Conditions.HasElysianAegis
+			// DownedYharon: Mods.EverquartzAdventure.Conditions.DownedYharon
+			// DownedProv: Mods.EverquartzAdventure.Conditions.DownedProv
+			// DownedPolter: Mods.EverquartzAdventure.Conditions.DownedPolter
+			// hasElysianWings: Mods.EverquartzAdventure.Conditions.hasElysianWings
+		}
+
+		// DropConditions.StarFlare: After defeating the Exo Mechs and Supreme Witch, Calamitas.
+	}
+}
+
+TownNPCMood_Princess.LoveNPC_EverquartzAdventure/StarbornPrincess: 戴莫斯真的是个打交的不错人选。她精力无限，也乐于教我一些她制造的东西...她也是另一个公主！

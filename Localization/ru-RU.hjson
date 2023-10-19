@@ -1,0 +1,350 @@
+Mods: {
+	EverquartzAdventure: {
+		Buffs: {
+			Mindcrashed: {
+				Descriptions: {
+					0: Благословлённые те, кто умрут в ГипнОС!
+					1: ЧТО ТЫ ЗНАЕШЬ, ЧТО ТЫ LUB-ИШЬ, ВО ЧТО ТЫ ИГРАЕШЬ!
+					2: Живём, как в сказке, как Гипноз в свете
+					3: ИСКУШЕНИЕ
+					4: А ТЕПЕРЬ КЫШ ИЗ ИНЕТА
+					5: Ass we can.
+				}
+
+				DisplayName: С Л О М А Н Н Ы Е М Ы С Л И 2000
+				// Description: Mods.EverquartzAdventure.Buffs.Mindcrashed.Description
+			}
+
+			DeimosPetBuff: {
+				DisplayName: Тварь В Банке
+				Description: Это не снег.
+			}
+		}
+
+		Items: {
+			MelanieMartinezMusicBox: {
+				Trolled: И-ди-от! Вы попытались послушать копирайтную музыку!.
+				Trolled2: Не говори что мы не предупреждали.
+				// DisplayName: Music Box (The Starborn Moth)
+				// Tooltip: Plays 'Starborn' by idk Evobyte? its not a thing yet ig...
+			}
+
+			DivineCore: {
+				DisplayName: Божественное Ядро
+				Tooltip:
+					'''
+					Вы чувствуете, как божественная теплота бурлит в вашем теле...
+					Что то говорит тебе, что этот предмет не должен быть в твоих руках.
+					'''
+			}
+
+			StarbornPrincessItem: {
+				DisplayName: Деймос, Рождённая в звёздах
+				Tooltip: Нажмите ПКМ что бы убить
+			}
+
+			DeimosFumo: {
+				DisplayName: Плюшевая Игрушка Деймоса
+				Tooltip: Понадеемся, что ты не будешь делать ничего подозрительного из этой вещи...
+			}
+
+			MarsBar: {
+				DisplayName: Марсовый Слиток
+				Tooltip: Вкусненько！
+			}
+
+			DeimosPetItem: {
+				DisplayName: Космическая Банка
+				Tooltip:
+					'''
+					Ребят, доверьтесь мне, это снег. Снег. Снег？
+					СНЕГ.
+					'''
+			}
+
+			DeimosBow: {
+				DisplayName: Вселенский Огненныйчтототам
+				Tooltip: "Я забыл что писать, "
+			}
+
+			DeimosStaff: {
+				DisplayName: Космическая Звёздная Ярость
+				Tooltip: AHHHHHHHH I NEED A MEDIC BAG
+			}
+
+			StarFlare: {
+				DisplayName: Звёздная Вспышка
+				Tooltip: "'Мёртвая Деймос атакует меня в Освещении！'"
+			}
+
+			SundialNimbus: {
+				DisplayName: Нимб Сандиала
+				Tooltip: ТЫ ПОМЕСТИЛ ЕЁ НА ЕБУЧИЙ ПОСОХ
+			}
+
+			Indulgence: {
+				DisplayName: Снисхождение
+				Tooltip: Вы искуплены от своих грехов
+			}
+
+			DeimosVoodooDoll: {
+				// Tooltip: "'You are a terrible person'"
+				// DisplayName: Starborn Princess Voodoo Doll
+			}
+
+			DeimosShortsword: {
+				// DisplayName: Celesticus
+				// Tooltip: ""
+			}
+
+			CelestialGeode: {
+				// DisplayName: Strange Gemstone
+				// Tooltip: ""
+			}
+
+			TimeSecond: {
+				// Tooltip: Total amount of time required to obtain this item through transmogrification
+				// DisplayName: Seconds
+			}
+
+			TimeMinute: {
+				// Tooltip: Total amount of time required to obtain this item through transmogrification
+				// DisplayName: Minute(s)
+			}
+
+			TransmStationItem: {
+				// Tooltip: Unobtainable furniture item used for displaying transmogrifications through the guide/recipe browser.
+				// DisplayName: Transmogrification
+			}
+
+			DeimosDartGun: {
+				/* Tooltip:
+					'''
+					Crystal Darts are replaced with accelerating piercing darts that inflict God Slayer Inferno
+					Cursed Darts are replaced with inaccurate and erratically moving darts that inflict Nightwither
+					Ichor Darts are replaced with darts that inflict Holy Flames that then explode into radiant bolts after a short period
+					Crystal Darts deal 90% weapon damage, Cursed Darts deal 200% weapon damage, and Ichor Dart radiant bolts deal 75% weapon damage
+					''' */
+				// DisplayName: Star Darter
+			}
+
+			DeimosFumoCannon: {
+				// DisplayName: Plushie Launcher
+				// Tooltip: Right Click to fire a spread of five plushies
+			}
+
+			Mineral: {
+				/* Tooltip:
+					'''
+					Grants a 55% increase to all damage and critical strike chance, 50 armor penetration, 35% reduced damage taken, +50 life regen, increased pick-up range of hearts, mana, and items,
+					Mana Flower and Flipper effects, unlimited breath even in the abyss, +400 max life and +600 max mana, +10 minion and sentry slots, 150% increased movement speed and +75% acceleration,
+					and 20% increased luck.
+					Counts as wings and has unlimited flight
+					'Perfectly balanced...'
+					''' */
+				// DisplayName: Mineral
+			}
+		}
+
+		NPCs: {
+			StarbornPrincess: {
+				DisplayName: Принцесса, рождённая в небесах
+				DeathMessage: Деймос, принцесса звёзд прекратила существовать...
+				ShopText: Магазин Деймос Прайма
+				TransText: Трансморгификация.
+				BestiaryText: НЯМ НЯМ ВКУСНЫЙ МОЗГ ГИПНОЗ НЯМ НЯМ
+				CensusCondition: Defeat Providence, the Profaned Goddess
+				// Census.SpawnCondition: Become a target of the Profaned Goddess
+
+				Help: {
+					0: Ай!
+					1: Снова, сука?
+					2: Ну и нахуя?
+					3: Чего я тебе блять сделала?
+				}
+
+				Chat: {
+					Homeless: {
+						0: Я всегда была бездомной, так что это как то норма для меня.
+						1: А у тебя есть дом? Можно посмотреть?
+						2: Небольшая просьба, можно ли мне домик? Большая? Ну сорян...
+					}
+
+					Common: {
+						0: А ты слышал(а) о том самом художнике? Я думаю что её зовут Everquartz... ну - я думаю она странная. А ещё я знаю Blitztrager-а, он меня научил русскому.
+						1: Я очень люблю читать книги и изучать межпространственные перемещения. На это интересно посмотреть, увидеть себя в прошлом или альтернативность. Я видела кучу реальностей, больших и малых, круглых и некруглых. У всех разные законы и они все по-разному заботятся о своих сообществах. Это тааааааааак интересно!
+						2: Честно говоря, пошли мои родители нахуй, они оба настолько же плохие, как друг други... типо того. Тут я не помню.
+						3: А тебе нравятся куриные нагетсы?
+						4: *начинаю танцевать ча-ча* Cha cha real smooth!
+					}
+
+					BloodMoon: {
+						0: Смертные и грешные как ТЫ не имеют права бродить по планете в таком хаосе. Еслиб моя мама была жыва, я бы тебя лично отвела к ней, что бы тебя очистили. Процесс очищения не самое лучшее, на что можно посмотреть, так что тебе ПОВЕЗЛО, что она в мире ином... Но я этому не очень рада.
+						1: Еслиб мир был очищен, то моя мама бы была рада. И так вышло, что ты всё испортил... Тебя я не жалею, грешник.
+						2: СЖЕЧЬ, СЖЕЧЬ, СЖЕЧЬ! Очисти этот мир от его отвратительных грехов! Возможно я слишком много об этом говорю, но это правда. Я должна очистить этот мир. Моя мама была бы рада услышать то, что я продолжаю своё наследие но угадай-ка кто её прикончил?! Понимаешь?!
+					}
+
+					Party: {
+						0: Вау! Вечеринки такие весёлые. Мне нравится скакать туда-сюда, танцевать, и конечно же, конфети! Так много всякой разноцветной всячины! Люблю такую атмосферу!
+						1: Моя мама бы ругала меня за вечерники... так что всё это с людьми немного странно для меня, но мне это нравится!
+					}
+
+					// PostProv.0: When I was 'born', I was just a mere essence existing that relied on both my mother and my father. I don't know how I was created... but if you haven't already figured that out, my parents are The Profaned Goddess and that stupid god eating creature. He's stupid, we're all stupid. I think that concludes this conversation.
+
+					PostProvBloodMoon: {
+						// 0: Mortals and sinners like YOU should not be allowed to roam the planet in such a mess. If my mother was around, I would have personally took you to her to get a cleansing. Being cleansed isn't the most pretty sight, so be LUCKY that she is dead... I'm not too happy about that.
+						// 1: I promised my mother that I would continue on my legacy as a such a divine essence, and that includes to try cleanse this world of its disgusting sins. I probably keep going on about it too much, but it's true. I must continue on to cleanse the world. My mother would be so happy to hear that I would try to continue my legacy on but guess who killed her?! See what I mean?!
+					}
+
+					// PostOneSent.0: My mother was an interesting character, but I just never felt with her... the idea of burning the world just never stood right with me, but I never really verbally spoke about it because I was afraid my mother would KILL me for it. I wonder what it would've been like if my dad took me instead. I feel like he would've used me as a sentinel or something. Yikes.
+					PostDoG.0: Моя мама это интересная персона, но я просто не чувствавола себя на месте с ней... идея сжечь мир к хуям мне никогда не нравилась, но я об этом никогда не говорила это маме, потому что бы она меня прибила за такие слова. Интересно, как бы я выглядила если бы мой отец взял меня под опеку. Чую, что он бы меня использовал как часогого. Неприятно.
+
+					Orphaned: {
+						// 0: My father? Oh, well he wasn't the best character around... I hadn't really known him for that long considering I always stayed with my mother, but I heard he was just... bad. I don't know how else to describe it, but I don't like him. I would've preferred to stay with my mother, but considering she is dead- I am not too sure who to stay with. I guess that's why I stayed with you, because you have shelter... I'm alone now. I don't have anyone to rely on anymore.
+						// 1: It's a bit weird to say this, but thank you for defeating both of my parents. The world is much more great now without those two around. Keeping those two apart was hard work. Let's just say it would've been a universal catastrophe if this was in my earlier stages of my existence. I am glad I don't have to deal with the stress about keeping up my dad's Delicious Meat addiction. Though, I'm a bit sad that I don't have anyone to rely on now.
+					}
+
+					InHallow: {
+						0: Я думаю что Освещение это обманчивое место. И правда, оно очень необычное. Оно мне очень даже нравится, но ёлы палы эти Единороги больно бьют. Разве ты их не видывал?!
+						1: Ты думал что биом с кучей фей и единорогов будет хоть чуть добрее...
+					}
+
+					CalamitasRef: {
+						0: Эта девушка, Каламитас, я думаю её имя это... она довольно красивая. Но уважаю её личное пространство.
+						1: Можешь кое-что попросить у Каламитас для меня? Пасибки!
+					}
+
+					AnglerRef.0: А ты слыхал об {0}? Да, о низком ребёнке с этой шляпой и всяким подобным? Так вот, он мне не нравится.
+				}
+
+				TownNPCMood: {
+					Content: Та норм! Не очень то и нравится, но что делать.
+					NoHome: Блять где мой дом
+					LoveSpace: Обожаю! Просто чудесно! Я чувствую себя как дома. Места много.
+					FarFromHome: И где я сейчас? Мухосранск?
+					DislikeCrowded: Смотри: да, я говорила что мне нравиться тусоваться с людьми, но не надо поселять меня в миграционный кризис.
+					HateCrowded: ААААААААААААААААААААААААААААААААААААААААААААААААА много людей. Ни нада.
+					LikeNPC_Princess: Мне нравиться принцесса... Только потому что она, как и я, принцесса.
+					LoveBiome: I like the hallow, it's very pretty. I like it when unicorns charge at you as soon as you step out your front door.
+					HateBiome: Пить... Пить... Пить...
+					Princess_LovesNPC: С Деймос прикольно тусоваться. У неё такая энергия и такие крутые идеи... а ещё она принцесса!
+				}
+			}
+
+			Hypnos: {
+				DisplayName: Душа Вечного Интелекта Бесконечных Запрещённых Знаний
+				BestiaryText: Мастер иллюзий. ВСЕВОЗМОЖНО ПРИРОДНАЯ НЕЙРОННАЯ Душа Вечного Интелекта Вечных Знаний требует твоё приношение. - Что за хуйня? прим. переводчика
+				ButtonText: Pray (1 {0})
+
+				Chat: {
+					Common: {
+						0: Рачки Смертные, возможно и ты, видят мои интернетные сёрф-устройства и нейроны.
+						1: Рачок и олень, малой!
+						2: *подбросил(а) монетку* Орёл или решка?
+						3: Я не бросаю кости со вселенной.
+						4: Это мир шуток, а я джокер!
+						5: Ahead loci gibbuses ordain wrong sect, fly ear. Remains knifing, All rishi led; yeast swan shot mate is dao.
+						6: А теперь выйди из соцсетей, и погнали к океану, ДАВАЙТЕ ВСЕ ОТПРАВИМ ИНЕТ К ХУЯМ!
+						7: Брайншторм Гипи идёт с востока! Молитесь Гипнозу!
+						8: Остерегайся других меня из других миров! Моя нога попалась в капкан когда я хотела спереть чуть мозгов от другого.
+						9: Я думаю, поэтму я я.
+					}
+
+					Pray: {
+						0: Я принимаю твои молитвы..
+						1: Благословлённые теперь те, кто умрут в  ГипнОС! Отдохнут от анскилла, пусть займутся делами.
+						2: *подрбрасываю монетку в воздух* Только моя рельса!
+						3: Новый мандат пришёл от Гипноза, Гипноз верит что хорошая психика - хорошие нейроны!
+					}
+
+					PrayWithoutMoney: {
+						0: Я сделаю тебе предупреждение, как всегда, те кто не достоины, не будут достоины в королевстве Гипноза!
+						1: Честно я просто хочу заснять твой город для Драедона. Мольба, благословение и грех никогда не существовали.
+					}
+
+					PreHypnos.0: Попробуйте ГипнОС 1.003!
+
+					PostHypnos: {
+						0: Попробуйте ГипнОС 2000!
+						1: У2000 Мыслеслом уже идёт! А теперь молись Гипнозу!
+						2: Игрок, контролируй свои странные электромагнитные волны отправляемые той машиной и тем кровавым сборищем, в следуйщий раз. Они очень плохо работают на мои наушники.
+						3: Драедон - скучный взрослый. Он заставлял вычислять для него с 9 утра до 9 вечера, 6 дней в неделю, но я всегда искала всё в инете.
+						4: Эта кровавая вена... Что бы удержать МЕНЯ?
+					}
+
+					BloodMoon.0: Двух кроликов одним выстрелом не убить, но монеткой-сплитшотом?
+					Party.0: Все мужики устроили какое-то "гачи мучи" и "жёсткую игру в танки".
+
+					DeimosRef: {
+						0: Деймос вообще не понимает опасность путешествия по альтернативным измерениям. Рачок-Игрок должен с ней разобраться.
+						1: Я думаю, что Арез и Дейиос были бы хорошими друзьями, но я почти не говорила о вышеупомянотой.
+					}
+				}
+			}
+
+			DivineCore.DisplayName: Божественное Ядро
+		}
+
+		UI: {
+			Transmogrification: {
+				PlaceItem: Трансморгификация
+				Proceed: Трансморгифицировать
+				Transmogrifing: Трансморгифицирую
+				Done: Готовчик!
+			}
+		}
+
+		/* TownNPCMood: {
+		StarbornPrincess: {
+		
+		}
+		
+		Hypnos: {
+		Content: I would return to Draedon's laboratory later.
+		NoHome: I would return to Draedon's laboratory later.
+		LoveSpace: Solitude is common, for me, as I don't want to be a soulless war machine.
+		DislikeBiome: By the way I'm not interested in real life surfing, my inorganic components are not waterproof.
+		HateBiome: Such a corrupted place... It reminds me of my ancestors.
+		}
+		} */
+		
+		Projectiles: {
+			DeimosYoyoHeadProjectile.DisplayName: Decap Attack
+			DeimosYoYoProjectile.DisplayName: Deimos Yo Yo Projectile
+			EverquartzProjectile.DisplayName: Everquartz Projectile
+			// AergiaNeuron.DisplayName: Aergia Neuron
+			BlueExoPulseLaser.DisplayName: Синий Экзо-Пульсовой Лазер
+			DeimosPetProjectile.DisplayName: Deimos Pet Projectile
+			// DeimosShortswordShoot.DisplayName: Celesticus
+			// DeimosFireProj.DisplayName: Celestial Flame
+			// DeiSicknessDart.DisplayName: Celestial Infection Dart
+			// DeiNightwitherDart.DisplayName: Celestial Night Dart
+			// DeiHolyFlamesDart.DisplayName: Celestial Holy Dart
+			// DeiGodSlayerDart.DisplayName: Celestial Distortion Dart
+			// DeimosFumoThrown.DisplayName: Deimos Fumo Thrown
+		}
+
+		Tiles: {
+			MelanieMartinezMusicBoxPlaced.MapEntry: Music Box
+			DeimosFumoPlaced.MapEntry: Deimos Fumo
+
+			TransmStation: {
+				// $parentVal: Transmogrification
+				// MapEntry: Transmogrification
+			}
+		}
+
+		Conditions: {
+			// DownedDoG: Mods.EverquartzAdventure.Conditions.DownedDoG
+			// HasElysianAegis: Mods.EverquartzAdventure.Conditions.HasElysianAegis
+			// DownedYharon: Mods.EverquartzAdventure.Conditions.DownedYharon
+			// DownedProv: Mods.EverquartzAdventure.Conditions.DownedProv
+			// DownedPolter: Mods.EverquartzAdventure.Conditions.DownedPolter
+			// hasElysianWings: Mods.EverquartzAdventure.Conditions.hasElysianWings
+		}
+
+		// DropConditions.StarFlare: After defeating the Exo Mechs and Supreme Witch, Calamitas.
+	}
+}
+
+TownNPCMood_Princess.LoveNPC_EverquartzAdventure/StarbornPrincess: genshit impact // gayshit infarct
